@@ -2275,6 +2275,25 @@ input, select, textarea {
 				text-align: center;
 			}
 
+		.icon.major2 {
+			display: inline-block;
+			border-radius: 100%;
+			padding: 0.65em;
+			margin: 0 0 2em 0;
+			cursor: default;
+		}
+
+			.icon.major2:before {
+				display: inline-block;
+				font-size: 2.50rem;
+				width: 2.25em;
+				height: 2.25em;
+				line-height: 2.2em;
+				border-radius: 100%;
+				border: solid 1px;
+				text-align: center;
+			}
+
 		.icon.alt {
 			display: inline-block;
 			border: solid 1px;
@@ -2375,7 +2394,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 35%;
 		}
 
 			.image.left img, .image.right img {
